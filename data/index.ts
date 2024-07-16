@@ -72,34 +72,71 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Multimedia a Social media platform",
+    des: "Developed a web application and a complete social media website using AI-driven content categorization with OpenAI's GPT models. Implemented user-specific content filtering and advanced recommendation algorithms using vectors to enhance content discovery and personalized interactions.",
+    img: "/p2.svg",
+    iconLists: [
+      "/svelte.svg",
+      "/css.svg",
+      "/ts.svg",
+      "/html.svg",
+      "/git.svg",
+      "/api.svg",
+    ],
+    link: "",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Banking App",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/p1.svg",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/sentry.svg",
+      "/dwolla.svg",
+    ],
+    link: "https://banking-app-lyart.vercel.app/sign-in",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://apple-website-clone-sigma.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Robotic Arm Web-Control Project",
+    des: "Worked on automating industrial processes by developing a full-stack website for user orders, creating a Python API to transmit data to a Raspberry Pi over a custom network. Implemented multithreading for a conveyor system with camera-based order identification, and programmed a robotic arm for precise item placement and order completion.",
+    img: "/p6.svg",
+    iconLists: [
+      "/svelte.svg",
+      "/CSS.svg",
+      "html.svg",
+      "/ts.svg",
+      "/api.svg",
+      "/python.svg",
+      "/robot.svg",
+    ],
+    link: "https://fullstack-6p9g8dcol-diyararashid123s-projects.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Bookstore Project ",
+    des: "Worked as the backend developer, responsible for implementing core functionalities and logic for the bookstore. Developed sophisticated algorithms for recommending books based on user interactions and preferences.",
+    img: "/p7.svg",
+    iconLists: ["/next.svg", "/js.svg", "express.svg", "auth.svg"],
+    link: "/ui.aiimg.com",
+  },
+  {
+    id: 6,
+    title: "Skoban game",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/p8.svg",
+    iconLists: ["java.svg"],
     link: "/ui.apple.com",
   },
 ];
@@ -107,32 +144,22 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Diyara on our bookstore project was a great experience. His technical expertise, collaborative spirit, and positive attitude made the process smooth and enjoyable. Diyara's problem-solving skills and enthusiasm for development were evident throughout. I highly recommend him as a colleague and partner in any project.",
+    name: "Abdullah Attia",
+    title: "Computer Science",
   },
+
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Assessing Diyara's work on the 'Multimedia' project was a pleasure. His creativity, technical proficiency, and dedication to excellence were evident in every aspect of his work. Diyara demonstrated an impressive ability to integrate multimedia elements effectively, resulting in a highly engaging and user-friendly platform. His attention to detail and innovative approach set his project apart. I am confident that Diyara will continue to excel in his future endeavors.",
+    name: "Mahmoud Rahat",
+    title: "Examiner",
   },
+
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Collaborating with Diyara was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Diyara's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Diyara is the one.",
+    name: "Alex Lindberg & Hamada",
     title: "Director of AlphaStream Technologies",
   },
 ];
@@ -180,16 +207,16 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", 
+    title: "Fullstack Developer",
+    desc: "Designed and developed websites platforms using React Native.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", 
+    title: "Freelance Web Dev Project",
+    desc: "Creating a shoping website for Disdas",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
