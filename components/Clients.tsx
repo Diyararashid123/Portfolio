@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
-import { testimonials } from '@/data'
+import { socialMedia, testimonials } from '@/data'
 
 const Clients = () => {
   return (
@@ -13,7 +13,7 @@ const Clients = () => {
        
         <InfiniteMovingCards items={testimonials} direction='right' speed='slow'/>
 
-       
+    
       </div>
     </section>
   )

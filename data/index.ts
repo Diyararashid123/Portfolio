@@ -8,8 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "Dedicated to Delivering Excellence",
+    description: "I strive to exceed expectations in every project I undertake.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "LiveDocs Project",
+    description: "Real-time collaborative document editor",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Do you want to offer me a job?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -71,9 +71,17 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 6,
+    title: "Disdas",
+    des: "I worked as an intern at Disdas, focusing on web development. I had the opportunity to work with both backend and frontend technologies, using React and TypeScript.",
+    img: "/p9.svg",
+    iconLists: ["next.svg","tail.svg","ts.svg"],
+    link: "https://disdas.dk",
+  },
+  {
     id: 1,
     title: "Multimedia a Social media platform",
-    des: "Developed a web application and a complete social media website using AI-driven content categorization with OpenAI's GPT models. Implemented user-specific content filtering and advanced recommendation algorithms using vectors to enhance content discovery and personalized interactions.",
+    des: "Developed a web application and social media site using AI-driven content categorization with OpenAI's GPT models. Implemented user-specific content filtering and recommendation algorithms to enhance content discovery and personalization.",
     img: "/p2.svg",
     iconLists: [
       "/svelte.svg",
@@ -88,7 +96,7 @@ export const projects = [
   {
     id: 2,
     title: "Banking App",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Keystone, built with Next.js, is a financial SaaS platform that connects to multiple bank accounts, displays real-time transactions, enables user-to-user money transfers, and manages overall finances.",
     img: "/p1.svg",
     iconLists: [
       "/next.svg",
@@ -110,7 +118,7 @@ export const projects = [
   {
     id: 4,
     title: "Robotic Arm Web-Control Project",
-    des: "Worked on automating industrial processes by developing a full-stack website for user orders, creating a Python API to transmit data to a Raspberry Pi over a custom network. Implemented multithreading for a conveyor system with camera-based order identification, and programmed a robotic arm for precise item placement and order completion.",
+    des: "Automated industrial processes by developing a full-stack website for user orders and creating a Python API to transmit data to a Raspberry Pi. Implemented multithreading for a conveyor system with camera-based order identification and programmed a robotic arm for precise item placement and order completion.",
     img: "/p6.svg",
     iconLists: [
       "/svelte.svg",
@@ -138,7 +146,9 @@ export const projects = [
     img: "/p8.svg",
     iconLists: ["java.svg"],
     link: "/ui.apple.com",
+    profileImage:"",
   },
+
 ];
 
 export const testimonials = [
@@ -147,13 +157,15 @@ export const testimonials = [
       "Working with Diyara on our bookstore project was a great experience. His technical expertise, collaborative spirit, and positive attitude made the process smooth and enjoyable. Diyara's problem-solving skills and enthusiasm for development were evident throughout. I highly recommend him as a colleague and partner in any project.",
     name: "Abdullah Attia",
     title: "Computer Science",
+    profileImage: ["/profile.svg"],
   },
 
   {
     quote:
       "Assessing Diyara's work on the 'Multimedia' project was a pleasure. His creativity, technical proficiency, and dedication to excellence were evident in every aspect of his work. Diyara demonstrated an impressive ability to integrate multimedia elements effectively, resulting in a highly engaging and user-friendly platform. His attention to detail and innovative approach set his project apart. I am confident that Diyara will continue to excel in his future endeavors.",
     name: "Mahmoud Rahat",
-    title: "Examiner",
+    title: "Examiner, Halmstad University",
+    profileImage: ["/mah.svg"],
   },
 
   {
@@ -161,64 +173,44 @@ export const testimonials = [
       "Collaborating with Diyara was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Diyara's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Diyara is the one.",
     name: "Alex Lindberg & Hamada",
     title: "Director of AlphaStream Technologies",
+    profileImage: ["/moh.svg","ham.svg"]
   },
-];
+  {
+    quote: "Supervising Diyara throughout the 'Multimedia' project, his final project for the third year, was an incredibly rewarding experience. Diyara's exceptional creativity, technical skills, and dedication were evident from the very beginning. His ability to integrate various multimedia elements into a cohesive and engaging platform was particularly impressive. Diyara consistently demonstrated a strong work ethic, a keen eye for detail, and a willingness to tackle complex challenges with enthusiasm. His innovative approach and commitment to excellence made him stand out. I am confident that Diyara will continue to achieve great success in his future endeavors.",
+    name: "Alexander Galozy",
+    title: "Supervisor, Halmstad University",
+    profileImage: ["/alex.svg"],
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  }
+  
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Fullstack Engineer Intern",
+    desc: "Worked as a full-stack developer and created a shopping website for Disdas.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Fullstack Developer",
-    desc: "Designed and developed websites platforms using React Native.",
+    desc: "Experienced Fullstack Developer skilled in designing and developing diverse web platforms. Projects include multimedia applications, banking apps, an iPhone clone website, and a robotic arm project.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
+  
   {
     id: 3,
-    title: "Freelance Web Dev Project",
-    desc: "Creating a shoping website for Disdas",
+    title: "Personal Projects and Continuous Learning",
+    desc: "Engaged in numerous personal projects to stay current with industry trends and enhance my skills in both front-end and back-end development. Collaborated with other engineers on various projects to foster teamwork and problem-solving. Focused on integrating new technologies and continuously improving my expertise.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
+  
+  
+  
   {
     id: 4,
     title: "Lead Frontend Developer",
@@ -226,19 +218,31 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  {
+    id: 5,
+    title: "Assistant Teacher for Algorithms and Data Structures",
+    desc: "Taught programming in Java and algorithms to a class of 22 students. Assisted in solving weekly tasks and facilitated understanding of complex concepts.",
+    className: "md:col-span-2",
+    thumbnail: "/ex6.svg",
+  },
+  {
+    id: 6,
+    title: "Project Leader, Robotic-arm project",
+    desc: "Led and managed the robotic arm project, overseeing all aspects of the group's work.",
+    className: "md:col-span-2",
+    thumbnail: "/exp5.svg",
+  },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Diyararashid123 "
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/diyara-rashid-36ab6b26a/"
   },
 ];
