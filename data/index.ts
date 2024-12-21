@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 6,
-    title: "Disdas",
-    des: "I worked as an intern at Disdas, focusing on web development. I had the opportunity to work with both backend and frontend technologies, using React and TypeScript.",
+    title: "HMS Industrial Networks",
+    des: "Worked as intern from the beginning, Developed backend systems in Python and Java to optimize data storage and retrieval., Designed real-time streaming solutions for sensor data, including integration with APIs and visualization tools.",
     img: "/p9.svg",
     iconLists: ["next.svg","tail.svg","ts.svg"],
-    link: "https://disdas.dk",
+    link: "",
   },
   {
     id: 1,
