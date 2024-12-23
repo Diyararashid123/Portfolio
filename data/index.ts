@@ -72,10 +72,18 @@ export const gridItems = [
 export const projects = [
   {
     id: 6,
+    title: "Disdas clothing brand startup Company",
+    des: "  Developed a full-stack e-commerce platform for a startup clothing brand, enabling users to browse products, add them to their cart, and complete purchases. Integrated with Stripe for secure payment processing and implemented user authentication and authorization.",  
+    img: "/disdas1.svg",
+    iconLists: ["python.svg","java.svg","ts.svg","api.svg"],
+    link: "",
+  },  
+  {
+    id: 6,
     title: "HMS Industrial Networks",
     des: "Worked as intern from the beginning, Developed backend systems in Python and Java to optimize data storage and retrieval., Designed real-time streaming solutions for sensor data, including integration with APIs and visualization tools.",
     img: "/p9.svg",
-    iconLists: ["next.svg","tail.svg","ts.svg"],
+    iconLists: ["python.svg","java.svg","ts.svg","api.svg"],
     link: "",
   },
   {
@@ -91,7 +99,7 @@ export const projects = [
       "/git.svg",
       "/api.svg",
     ],
-    link: "",
+    link: "https://github.com/Diyararashid123/multimedia ",
   },
   {
     id: 2,
@@ -133,19 +141,19 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Bookstore Project ",
-    des: "Worked as the backend developer, responsible for implementing core functionalities and logic for the bookstore. Developed sophisticated algorithms for recommending books based on user interactions and preferences.",
+    title: "CMS-Frontend-Angular ",
+    des: " Developed a CMS frontend using Angular, enabling users to create, edit etc. Integrated with a RESTful API to enable real-time updates and data synchronization. Letting users just by typing markdown create there own website.",
     img: "/p7.svg",
     iconLists: ["/next.svg", "/js.svg", "express.svg", "auth.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/Diyararashid123/CMS-Frontend-Angular",
   },
   {
     id: 6,
-    title: "Skoban game",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Job-Application-Project-Spring-Boot-REST-API-to-Microservices ",
+    des: " Developed a RESTful API for a job application platform using Spring Boot, enabling users to apply for jobs and companies to post job listings. Implemented microservices architecture to enhance scalability and performance.",
     img: "/p8.svg",
     iconLists: ["java.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/Diyararashid123/Job-Application-Project-Spring-Boot-REST-API-to-Microservices",
     profileImage:"",
   },
 
@@ -183,55 +191,6 @@ export const testimonials = [
 
   }
   
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Fullstack Engineer Intern",
-    desc: "Worked as a full-stack developer and created a shopping website for Disdas.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Fullstack Developer",
-    desc: "Experienced Fullstack Developer skilled in designing and developing diverse web platforms. Projects include multimedia applications, banking apps, an iPhone clone website, and a robotic arm project.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
-  },
-  
-  {
-    id: 3,
-    title: "Personal Projects and Continuous Learning",
-    desc: "Engaged in numerous personal projects to stay current with industry trends and enhance my skills in both front-end and back-end development. Collaborated with other engineers on various projects to foster teamwork and problem-solving. Focused on integrating new technologies and continuously improving my expertise.",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
-  },
-  
-  
-  
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-  {
-    id: 5,
-    title: "Assistant Teacher for Algorithms and Data Structures",
-    desc: "Taught programming in Java and algorithms to a class of 22 students. Assisted in solving weekly tasks and facilitated understanding of complex concepts.",
-    className: "md:col-span-2",
-    thumbnail: "/ex6.svg",
-  },
-  {
-    id: 6,
-    title: "Project Leader, Robotic-arm project",
-    desc: "Led and managed the robotic arm project, overseeing all aspects of the group's work.",
-    className: "md:col-span-2",
-    thumbnail: "/exp5.svg",
-  },
 ];
 
 export const socialMedia = [
